@@ -24,7 +24,8 @@ def browser(request):
         print("\nstart firefox browser for test..")
         browser = webdriver.Firefox()
     else:
-        raise pytest.UsageError("--browser_name should be chrome or firefox")
+        browser = webdriver.Chrome()
+        print("\nstart chrome browser for test..")
     yield browser
     print("\nquit browser..")
     browser.quit()
