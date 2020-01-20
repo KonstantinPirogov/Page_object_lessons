@@ -16,7 +16,7 @@ def test_guest_should_see_login_link(browser):
     page.open()
     page.should_be_login_link()
 
-# реализовал проверки пока описывал логин пейдж
+# реализовал проверки пока кодил логин пейдж
 def test_presence_login_form(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
     page = LoginPage(browser, link)
