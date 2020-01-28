@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-import chromedriver_binary  #костыль для pycharm
+import chromedriver_binary  #костыль для pycharm, если мешает запуску - удали
 from selenium.webdriver.chrome.options import Options
 
 def pytest_addoption(parser):
