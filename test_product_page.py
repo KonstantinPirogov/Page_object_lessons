@@ -2,7 +2,6 @@ from pages.product_page import ProductPage
 import pytest
 from pages.login_page import LoginPage
 from pages.basket_page import BasketPage
-import time
 
 @pytest.mark.skip
 #@pytest.mark.need_review
